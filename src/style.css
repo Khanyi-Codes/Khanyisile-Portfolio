@@ -1,0 +1,16 @@
+/* font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style:normal; */
+
+body{
+    background-color:white;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    
+}
+p{
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+}
