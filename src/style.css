@@ -2,15 +2,50 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style:normal; */
-
-body{
-    background-color:white;
-    color: black;
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    
+:root{
+    --primary-color: black;
+    --secondary-color: beige;
+    --heading-font: "Playfair Display", serif;
+    --default-font: "Playfair Display", serif;
 }
+body{
+    font-family: var(--defaul-font);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    font-weight: bold;
+}
+h1
+{
+    font-size: 96px;
+}
+
 p{
-    font-family: "Playfair Display", serif;
+    font-family: var(--heading-font);
     font-weight: normal;
+    margin:0;
+}
+.hero{
+    background:var(--secondary-color);
+    text-align: center;
+    padding:160px 20px;
+}
+.hero p{
+    font-family: var(--heading-font);
+    font-size: 36px;
+}
+.hero h2{
+    font-family: var(--heading-font);
+    font-weight: normal;
+    font-size: 40px;
+}
+.btn-branding{
+    background-color: var(--primary-color);
+    font-size:18px;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-weight: normal;
+    border-radius: 5px;
 }
