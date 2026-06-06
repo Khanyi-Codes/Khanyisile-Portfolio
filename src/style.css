@@ -8,6 +8,18 @@
     --heading-font: "Playfair Display", serif;
     --default-font: "Playfair Display", serif;
 }
+nav{
+    padding: 20px 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    
+}
+nav ul{
+    padding:0;
+}
 body{
     font-family: var(--defaul-font);
 }
