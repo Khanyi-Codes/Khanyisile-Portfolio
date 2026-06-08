@@ -7,6 +7,7 @@
     --secondary-color: beige;
     --heading-font: "Playfair Display", serif;
     --default-font: "Playfair Display", serif;
+    --branding-color: rgb(37, 124, 34);
 }
 nav{
     padding: 10px 0;
@@ -29,7 +30,7 @@ nav a{
     font-weight:700
 }
 nav a:hover, nav li.active a{
-    color:rgb(37, 124, 34);
+    color:var(--branding-color);
    
 }
 
@@ -43,6 +44,9 @@ h1, h2, h3, h4, h5, h6{
 h1
 {
     font-size: 80px;
+}
+h6{
+    font-size: 30px;
 }
 .container h2{
     font-size: 18px;
@@ -81,6 +85,11 @@ p{
     font-family: var(--heading-font);
     font-weight: normal;
     border-radius: 5px;
+}
+.btn-branding:hover{
+    background-color: white;
+    color: var(--branding-color);
+    transition: all 100ms ease-in-out;
 }
 .image{
     border-radius: 30px;
@@ -126,6 +135,44 @@ p{
     padding: 10px 5px;
    
 }
+footer{
+   margin: 60px;
+}
+footer .contact-box{
+    background-color: var(--secondary-color);
+    padding: 120px 30px;
+    border-radius: 10px;
+
+}
+footer .contact-box p{
+    margin:0;
+}
+footer .email-link{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-family: var(--heading-font);
+    text-align: center;
+}
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+footer .social-links a{
+    text-align: center;
+    margin:0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding:5px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+footer .social-links a:hover{
+    background-color: var(--branding-color);
+    color: white;
+    transition: all 100ms ease-in-out;
+}
 /* .content-containerc ontent{
   margin:15px; 
 } */
@@ -140,6 +187,7 @@ p{
     padding:80px 20px;
 
    }
+   
    .content-container{
     text-align: center;
     padding: 0;
@@ -147,6 +195,16 @@ p{
    }
    nav a{ 
     font-size: 15px;
+
+   }
+   h6{
+    font-size: 18px;
+   }
+   .btn{
+    font-size: 18px;
+   }
+   footer .contact-box{
+    padding: 160px 30px;
 
    }
  
