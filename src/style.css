@@ -11,6 +11,7 @@
 }
 nav{
     padding: 10px 0;
+    
 }
 nav li {
     display: inline;
@@ -41,6 +42,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
     font-weight: bold;
 }
+
 h1
 {
     font-size: 80px;
@@ -49,7 +51,7 @@ h6{
     font-size: 30px;
 }
 .container h2{
-    font-size: 18px;
+    font-size: 30px;
     line-height: 40px;
     padding: 0;
     margin:0;
@@ -107,11 +109,15 @@ p{
     padding :10px ;
 }
 .content-container h1{
-    font-size: 54px;
+    font-size: 55px;
     line-height: 80px;
     padding: 75px 10px;
 }
 .content-container p{
+    font-size: 20px;
+    font-family: var(--default-font);
+}
+.content-container h5{
     font-size: 30px;
     font-family: var(--default-font);
 }
@@ -146,6 +152,10 @@ footer .contact-box{
 }
 footer .contact-box p{
     margin:0;
+
+}
+footer p{
+    font-size: 18px;
 }
 footer .email-link{
     text-decoration: none;
@@ -214,7 +224,7 @@ footer .social-links a:hover{
    
     .content-container h1{
         font-size: 50px;
-        /* line-height: 30px; */
+        
         padding: 30px 10px;
     }
   
